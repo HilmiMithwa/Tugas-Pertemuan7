@@ -159,10 +159,47 @@ body {
   line-height: 1.6;
 }
 
+.feature-card.active {
+  border: 2px solid #6366f1;
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.2);
+  background-color: #eef2ff;
+}
+
+
+
 .testimonials {
   background-color: #f0f4ff;
   padding: 80px 60px;
 }
+
+.review-form {
+  max-width: 500px;
+  margin: 0 auto 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.review-form input {
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+.review-form button {
+  padding: 10px 20px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+#review-msg {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+
 
 .testimonials h2 {
   text-align: center;
